@@ -1,0 +1,42 @@
+header{
+    background-color: #CCCCFF;
+    height: auto;
+    
+}
+
+header .icon{
+    justify-content: space-between;
+    display: flex;
+}
+
+
+header .menu{
+    display: flex;
+}
+
+header .menu-card{
+    /* position: absolute;
+    right: 0; */
+    width: autoqwew;
+    min-height: 100px;
+    background: #FFFFCC;
+   
+    box-shadow: 4px 5px 15px -7px #282c34;
+    /* z-index: 1000; */
+    display: flex;
+    
+}
+
+ul,li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button{
+    margin: auto;
+}

@@ -1,0 +1,63 @@
+
+.weekday{
+    margin-left: 20px;
+}
+
+.weekofday table{
+    margin:auto
+}
+
+
+.weekofday tr, th{
+    font-size: 30px;
+   text-align: center;
+   padding: 10px 10px; 
+}
+
+.column{
+    flex-direction: column;
+}
+
+.day.today {
+    background-color: #FFFFCC;
+    color: black;
+    border-radius: 100px;
+    margin: 10;
+
+}
+
+
+.weekofday .day.today:hover {
+    background-color: #0081ff;
+}
+
+.weekofday .day:hover {
+    background-color: #CCCCFF;
+    cursor: pointer;
+} 
+
+.add{
+    text-align: center;
+    margin-top: 20px ;
+}
+
+.card{
+    background-color: #CCCCFF;
+    text-align: center;
+    min-height: 100px;
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 25px;  
+}
+
+.card button{
+    display: block;
+}
+
+.cartNote{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}

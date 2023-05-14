@@ -1,0 +1,14 @@
+.registration{
+   display: flex;
+   margin: auto;
+   flex-direction: column;
+   width: 200px;
+   justify-content: center;
+   
+}
+
+.row{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
